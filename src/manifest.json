@@ -1,0 +1,12 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "weatherReport",
+  "manifest_version": 3,
+  "author": "Peter_Okeno",
+  "action": {
+    "default_popup": "index.html",
+
+    "default_title": "weatherReport"
+  }
+}

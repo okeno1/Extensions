@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Status</title>
+</head>
+<body>
+    
+    <div class="container mt-3" style="width: 450px;">
+        <h2 class="text-center">Weather Report Status</h2>
+        <img src="E:/chrome_extension_weatherAPI/images/weather.png" alt="Image"/> /* This is the image of weather icon - TO DO: deploy online*/
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>Longitude</th>
+                <th>Latitude</th>
+                <th>Weather</th>
+                <th>Humidity</th>
+                <th>Windspeed</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td id="longitude"></td>
+                <td id="latitude"></td>
+                <td id="weather"></td>
+                <td id="humidity"></td>
+                <td id="windspeed"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
